@@ -123,6 +123,35 @@ Click on build3/xcode4.command or in a terminal window execute
 ```	
 ./premake_osx xcode4
 ```
+
+**Swift package manager**
+
+Add bullet as a dependency to your local Package.swift
+
+```swift
+// swift-tools-version: 5.9
+
+import PackageDescription
+
+let package = Package(
+  name: "PhysicsWrapper",
+  products: [
+    .library(
+      name: "PhysicsWrapper",
+      targets: ["PhysicsWrapper"]),
+  ],
+  dependencies: [.package(url: "https://github.com/danielgronlund/bullet3.git", branch: "swift-package-manager")],
+  targets: [
+    .target(
+      name: "PhysicsWrapper",
+      dependencies: [.product(name: "Bullet", package: "bullet3")]
+    ),
+  ]
+)
+```
+
+The physics wrapper package can then expose Bullet functionality via Obj-C/C or C++ interoperability to your target.
+
 ## Usage
 
 The App_ExampleBrowser executables will be located in the bin folder.

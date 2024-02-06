@@ -19,8 +19,8 @@
 #include "btSoftBodySolvers.h"
 #include "btDeformableBackwardEulerObjective.h"
 #include "btDeformableMultiBodyDynamicsWorld.h"
-#include "BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
-#include "BulletDynamics/Featherstone/btMultiBodyConstraint.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyConstraint.h"
 #include "btConjugateResidual.h"
 #include "btConjugateGradient.h"
 struct btCollisionObjectWrapper;

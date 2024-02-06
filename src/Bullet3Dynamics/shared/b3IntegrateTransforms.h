@@ -1,6 +1,6 @@
 
 
-#include "Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h"
+#include "../Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h"
 
 inline void integrateSingleTransform(__global b3RigidBodyData_t* bodies, int nodeID, float timeStep, float angularDamping, b3Float4ConstArg gravityAcceleration)
 {

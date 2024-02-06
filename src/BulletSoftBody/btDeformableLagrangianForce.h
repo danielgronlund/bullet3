@@ -17,7 +17,7 @@
 #define BT_DEFORMABLE_LAGRANGIAN_FORCE_H
 
 #include "btSoftBody.h"
-#include <LinearMath/btHashMap.h>
+#include <../LinearMath/btHashMap.h>
 #include <iostream>
 
 enum btDeformableLagrangianForceType

@@ -17,8 +17,8 @@
 #define BT_CG_PROJECTION_H
 
 #include "btSoftBody.h"
-#include "BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
-#include "BulletDynamics/Featherstone/btMultiBodyConstraint.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyConstraint.h"
 
 struct DeformableContactConstraint
 {

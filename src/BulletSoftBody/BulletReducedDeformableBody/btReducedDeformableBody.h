@@ -2,10 +2,10 @@
 #define BT_REDUCED_SOFT_BODY_H
 
 #include "../btSoftBody.h"
-#include "LinearMath/btAlignedObjectArray.h"
-#include "LinearMath/btVector3.h"
-#include "LinearMath/btMatrix3x3.h"
-#include "LinearMath/btTransform.h"
+#include "../LinearMath/btAlignedObjectArray.h"
+#include "../LinearMath/btVector3.h"
+#include "../LinearMath/btMatrix3x3.h"
+#include "../LinearMath/btTransform.h"
 
 // Reduced deformable body is a simplified deformable object embedded in a rigid frame.
 class btReducedDeformableBody : public btSoftBody

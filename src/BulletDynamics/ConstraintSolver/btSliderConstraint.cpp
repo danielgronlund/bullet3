@@ -19,8 +19,8 @@ April 04, 2008
 */
 
 #include "btSliderConstraint.h"
-#include "BulletDynamics/Dynamics/btRigidBody.h"
-#include "LinearMath/btTransformUtil.h"
+#include "../BulletDynamics/Dynamics/btRigidBody.h"
+#include "../LinearMath/btTransformUtil.h"
 #include <new>
 
 #define USE_OFFSET_FOR_CONSTANT_FRAME true

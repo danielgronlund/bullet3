@@ -14,13 +14,13 @@ subject to the following restrictions:
 */
 
 #include "btSoftRigidCollisionAlgorithm.h"
-#include "BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
-#include "BulletCollision/CollisionShapes/btSphereShape.h"
-#include "BulletCollision/CollisionShapes/btBoxShape.h"
-#include "BulletCollision/CollisionDispatch/btCollisionObject.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
+#include "../BulletCollision/CollisionShapes/btSphereShape.h"
+#include "../BulletCollision/CollisionShapes/btBoxShape.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionObject.h"
 #include "btSoftBody.h"
-#include "BulletSoftBody/btSoftBodySolvers.h"
-#include "BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
+#include "../BulletSoftBody/btSoftBodySolvers.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
 
 ///TODO: include all the shapes that the softbody can collide with
 ///alternatively, implement special case collision algorithms (just like for rigid collision shapes)
@@ -48,7 +48,7 @@ btSoftRigidCollisionAlgorithm::~btSoftRigidCollisionAlgorithm()
 }
 
 #include <stdio.h>
-#include "LinearMath/btQuickprof.h"
+#include "../LinearMath/btQuickprof.h"
 void btSoftRigidCollisionAlgorithm::processCollision(const btCollisionObjectWrapper* body0Wrap, const btCollisionObjectWrapper* body1Wrap, const btDispatcherInfo& dispatchInfo, btManifoldResult* resultOut)
 {
 	BT_PROFILE("btSoftRigidCollisionAlgorithm::processCollision");

@@ -17,8 +17,8 @@ subject to the following restrictions:
 #define BT_NEOHOOKEAN_H
 
 #include "btDeformableLagrangianForce.h"
-#include "LinearMath/btQuickprof.h"
-#include "LinearMath/btImplicitQRSVD.h"
+#include "../LinearMath/btQuickprof.h"
+#include "../LinearMath/btImplicitQRSVD.h"
 // This energy is as described in https://graphics.pixar.com/library/StableElasticity/paper.pdf
 class btDeformableNeoHookeanForce : public btDeformableLagrangianForce
 {

@@ -13,18 +13,18 @@ subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "LinearMath/btScalar.h"
-#include "LinearMath/btThreads.h"
+#include "../LinearMath/btScalar.h"
+#include "../LinearMath/btThreads.h"
 #include "btSimulationIslandManagerMt.h"
-#include "BulletCollision/BroadphaseCollision/btDispatcher.h"
-#include "BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
-#include "BulletCollision/CollisionDispatch/btCollisionObject.h"
-#include "BulletCollision/CollisionDispatch/btCollisionWorld.h"
-#include "BulletDynamics/ConstraintSolver/btTypedConstraint.h"
-#include "BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolverMt.h"  // for s_minimumContactManifoldsForBatching
+#include "../BulletCollision/BroadphaseCollision/btDispatcher.h"
+#include "../BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionObject.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionWorld.h"
+#include "../BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+#include "../BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolverMt.h"  // for s_minimumContactManifoldsForBatching
 
 //#include <stdio.h>
-#include "LinearMath/btQuickprof.h"
+#include "../LinearMath/btQuickprof.h"
 
 SIMD_FORCE_INLINE int calcBatchCost(int bodies, int manifolds, int constraints)
 {

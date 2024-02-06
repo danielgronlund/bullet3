@@ -15,7 +15,7 @@
 
 #include "btDeformableBackwardEulerObjective.h"
 #include "btPreconditioner.h"
-#include "LinearMath/btQuickprof.h"
+#include "../LinearMath/btQuickprof.h"
 
 btDeformableBackwardEulerObjective::btDeformableBackwardEulerObjective(btAlignedObjectArray<btSoftBody*>& softBodies, const TVStack& backup_v)
 	: m_softBodies(softBodies), m_projection(softBodies), m_backupVelocity(backup_v), m_implicit(false)

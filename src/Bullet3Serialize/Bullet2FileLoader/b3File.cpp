@@ -20,9 +20,9 @@ subject to the following restrictions:
 #include <string.h>
 #include <stdlib.h>
 #include "b3Defines.h"
-#include "Bullet3Serialize/Bullet2FileLoader/b3Serializer.h"
-#include "Bullet3Common/b3AlignedAllocator.h"
-#include "Bullet3Common/b3MinMax.h"
+#include "../Bullet3Serialize/Bullet2FileLoader/b3Serializer.h"
+#include "../Bullet3Common/b3AlignedAllocator.h"
+#include "../Bullet3Common/b3MinMax.h"
 
 #define B3_SIZEOFBLENDERHEADER 12
 #define MAX_ARRAY_LENGTH 512

@@ -16,8 +16,8 @@ subject to the following restrictions:
 #ifndef BT_MULTIBODY_DYNAMICS_WORLD_H
 #define BT_MULTIBODY_DYNAMICS_WORLD_H
 
-#include "BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
-#include "BulletDynamics/Featherstone/btMultiBodyInplaceSolverIslandCallback.h"
+#include "../BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyInplaceSolverIslandCallback.h"
 
 #define BT_USE_VIRTUAL_CLEARFORCES_AND_GRAVITY
 

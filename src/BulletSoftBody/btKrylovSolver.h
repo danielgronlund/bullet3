@@ -18,10 +18,10 @@
 #include <iostream>
 #include <cmath>
 #include <limits>
-#include <LinearMath/btAlignedObjectArray.h>
-#include <LinearMath/btVector3.h>
-#include <LinearMath/btScalar.h>
-#include "LinearMath/btQuickprof.h"
+#include <../LinearMath/btAlignedObjectArray.h>
+#include <../LinearMath/btVector3.h>
+#include <../LinearMath/btScalar.h>
+#include "../LinearMath/btQuickprof.h"
 
 template <class MatrixX>
 class btKrylovSolver

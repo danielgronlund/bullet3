@@ -17,12 +17,12 @@
 #define BT_CONTACT_PROJECTION_H
 #include "btCGProjection.h"
 #include "btSoftBody.h"
-#include "BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
-#include "BulletDynamics/Featherstone/btMultiBodyConstraint.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyConstraint.h"
 #include "btDeformableContactConstraint.h"
-#include "LinearMath/btHashMap.h"
-#include "LinearMath/btReducedVector.h"
-#include "LinearMath/btModifiedGramSchmidt.h"
+#include "../LinearMath/btHashMap.h"
+#include "../LinearMath/btReducedVector.h"
+#include "../LinearMath/btModifiedGramSchmidt.h"
 #include <vector>
 
 struct LagrangeMultiplier

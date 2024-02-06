@@ -4,7 +4,7 @@
 
 #ifndef POLY_34
 #define POLY_34
-#include "LinearMath/btScalar.h"
+#include "../LinearMath/btScalar.h"
 // x - array of size 2
 // return 2: 2 real roots x[0], x[1]
 // return 0: pair of complex roots: x[0]i*x[1]

@@ -17,9 +17,9 @@ subject to the following restrictions:
 #define BT_GHOST_OBJECT_H
 
 #include "btCollisionObject.h"
-#include "BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h"
-#include "LinearMath/btAlignedAllocator.h"
-#include "BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+#include "../BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h"
+#include "../LinearMath/btAlignedAllocator.h"
+#include "../BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
 #include "btCollisionWorld.h"
 
 class btConvexShape;

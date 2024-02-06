@@ -1,7 +1,7 @@
 #ifndef BT_REDUCED_DEFORMABLE_BODY_DYNAMICS_WORLD_H
 #define BT_REDUCED_DEFORMABLE_BODY_DYNAMICS_WORLD_H
 
-#include "BulletSoftBody/btDeformableBodySolver.h"
+#include "../BulletSoftBody/btDeformableBodySolver.h"
 #include "btReducedDeformableContactConstraint.h"
 
 class btReducedDeformableBody;

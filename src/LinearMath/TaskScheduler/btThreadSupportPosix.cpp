@@ -16,10 +16,10 @@ subject to the following restrictions:
 
 #if BT_THREADSAFE && !defined(_WIN32)
 
-#include "LinearMath/btScalar.h"
-#include "LinearMath/btAlignedObjectArray.h"
-#include "LinearMath/btThreads.h"
-#include "LinearMath/btMinMax.h"
+#include "../LinearMath/btScalar.h"
+#include "../LinearMath/btAlignedObjectArray.h"
+#include "../LinearMath/btThreads.h"
+#include "../LinearMath/btMinMax.h"
 #include "btThreadSupportInterface.h"
 
 #include <stdio.h>

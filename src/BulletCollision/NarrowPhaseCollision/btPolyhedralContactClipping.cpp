@@ -18,7 +18,7 @@ subject to the following restrictions:
 ///And contact clipping based on work from Simon Hobbs
 
 #include "btPolyhedralContactClipping.h"
-#include "BulletCollision/CollisionShapes/btConvexPolyhedron.h"
+#include "../BulletCollision/CollisionShapes/btConvexPolyhedron.h"
 
 #include <float.h>  //for FLT_MAX
 

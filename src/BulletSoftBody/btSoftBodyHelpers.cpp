@@ -23,8 +23,8 @@ subject to the following restrictions:
 #include <string.h>
 #include <algorithm>
 #include "btSoftBodyHelpers.h"
-#include "LinearMath/btConvexHull.h"
-#include "LinearMath/btConvexHullComputer.h"
+#include "../LinearMath/btConvexHull.h"
+#include "../LinearMath/btConvexHullComputer.h"
 #include <map>
 #include <vector>
 

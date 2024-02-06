@@ -16,7 +16,7 @@ subject to the following restrictions:
 #ifndef BT_HASHED_SIMPLE_PAIR_CACHE_H
 #define BT_HASHED_SIMPLE_PAIR_CACHE_H
 
-#include "LinearMath/btAlignedObjectArray.h"
+#include "../LinearMath/btAlignedObjectArray.h"
 
 const int BT_SIMPLE_NULL_PAIR = 0xffffffff;
 

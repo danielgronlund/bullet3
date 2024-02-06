@@ -16,7 +16,8 @@ let package = Package(
       exclude: [
         "btBulletCollisionAll.cpp",
         "btBulletDynamicsAll.cpp",
-        "btLinearMathAll.cpp"
+        "btLinearMathAll.cpp",
+        "Bullet3OpenCL/"
       ],
       sources: ["."]
     ),

@@ -16,7 +16,7 @@ subject to the following restrictions:
 //btShapeHull was implemented by John McCutchan.
 
 #include "btShapeHull.h"
-#include "LinearMath/btConvexHull.h"
+#include "../LinearMath/btConvexHull.h"
 
 #define NUM_UNITSPHERE_POINTS 42
 #define NUM_UNITSPHERE_POINTS_HIGHRES 256

@@ -15,8 +15,8 @@ subject to the following restrictions:
 
 #include "btSolve2LinearConstraint.h"
 
-#include "BulletDynamics/Dynamics/btRigidBody.h"
-#include "LinearMath/btVector3.h"
+#include "../BulletDynamics/Dynamics/btRigidBody.h"
+#include "../LinearMath/btVector3.h"
 #include "btJacobianEntry.h"
 
 void btSolve2LinearConstraint::resolveUnilateralPairConstraint(

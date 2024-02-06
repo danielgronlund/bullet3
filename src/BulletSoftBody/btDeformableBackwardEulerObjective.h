@@ -26,7 +26,7 @@
 #include "btDeformableContactProjection.h"
 #include "btPreconditioner.h"
 // #include "btDeformableMultiBodyDynamicsWorld.h"
-#include "LinearMath/btQuickprof.h"
+#include "../LinearMath/btQuickprof.h"
 
 class btDeformableBackwardEulerObjective
 {

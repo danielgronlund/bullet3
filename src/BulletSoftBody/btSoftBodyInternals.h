@@ -18,14 +18,14 @@ subject to the following restrictions:
 #define _BT_SOFT_BODY_INTERNALS_H
 
 #include "btSoftBody.h"
-#include "LinearMath/btQuickprof.h"
-#include "LinearMath/btPolarDecomposition.h"
-#include "BulletCollision/BroadphaseCollision/btBroadphaseInterface.h"
-#include "BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
-#include "BulletCollision/CollisionShapes/btConvexInternalShape.h"
-#include "BulletCollision/NarrowPhaseCollision/btGjkEpa2.h"
-#include "BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
-#include "BulletDynamics/Featherstone/btMultiBodyConstraint.h"
+#include "../LinearMath/btQuickprof.h"
+#include "../LinearMath/btPolarDecomposition.h"
+#include "../BulletCollision/BroadphaseCollision/btBroadphaseInterface.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
+#include "../BulletCollision/CollisionShapes/btConvexInternalShape.h"
+#include "../BulletCollision/NarrowPhaseCollision/btGjkEpa2.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyConstraint.h"
 #include <string.h>  //for memset
 #include <cmath>
 #include "poly34.h"

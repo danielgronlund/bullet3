@@ -1,4 +1,4 @@
 module Bullet {
-  header "Bullet.h"
+  umbrella header "Include/Bullet.h"
   export *
 }

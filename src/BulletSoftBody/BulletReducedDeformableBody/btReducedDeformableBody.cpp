@@ -1,7 +1,7 @@
 #include "btReducedDeformableBody.h"
 #include "../btSoftBodyInternals.h"
 #include "btReducedDeformableBodyHelpers.h"
-#include "LinearMath/btTransformUtil.h"
+#include "../LinearMath/btTransformUtil.h"
 #include <iostream>
 #include <fstream>
 

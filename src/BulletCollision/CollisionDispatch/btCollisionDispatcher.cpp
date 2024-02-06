@@ -14,16 +14,16 @@ subject to the following restrictions:
 */
 
 #include "btCollisionDispatcher.h"
-#include "LinearMath/btQuickprof.h"
+#include "../LinearMath/btQuickprof.h"
 
-#include "BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
+#include "../BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
 
-#include "BulletCollision/CollisionShapes/btCollisionShape.h"
-#include "BulletCollision/CollisionDispatch/btCollisionObject.h"
-#include "BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
-#include "LinearMath/btPoolAllocator.h"
-#include "BulletCollision/CollisionDispatch/btCollisionConfiguration.h"
-#include "BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
+#include "../BulletCollision/CollisionShapes/btCollisionShape.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionObject.h"
+#include "../BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+#include "../LinearMath/btPoolAllocator.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionConfiguration.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
 
 #ifdef BT_DEBUG
 #include <stdio.h>

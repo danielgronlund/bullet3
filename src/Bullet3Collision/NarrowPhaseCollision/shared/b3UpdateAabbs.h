@@ -1,9 +1,9 @@
 #ifndef B3_UPDATE_AABBS_H
 #define B3_UPDATE_AABBS_H
 
-#include "Bullet3Collision/BroadPhaseCollision/shared/b3Aabb.h"
-#include "Bullet3Collision/NarrowPhaseCollision/shared/b3Collidable.h"
-#include "Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h"
+#include "../Bullet3Collision/BroadPhaseCollision/shared/b3Aabb.h"
+#include "../Bullet3Collision/NarrowPhaseCollision/shared/b3Collidable.h"
+#include "../Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h"
 
 void b3ComputeWorldAabb(int bodyId, __global const b3RigidBodyData_t* bodies, __global const b3Collidable_t* collidables, __global const b3Aabb_t* localShapeAABB, __global b3Aabb_t* worldAabbs)
 {

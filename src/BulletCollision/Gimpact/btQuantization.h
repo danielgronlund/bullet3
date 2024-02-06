@@ -25,7 +25,7 @@ subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "LinearMath/btTransform.h"
+#include "../LinearMath/btTransform.h"
 
 SIMD_FORCE_INLINE void bt_calc_quantization_parameters(
 	btVector3& outMinBound,

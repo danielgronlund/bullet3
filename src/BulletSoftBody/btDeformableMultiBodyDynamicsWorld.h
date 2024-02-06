@@ -22,7 +22,7 @@
 // #include "btDeformableBodySolver.h"
 #include "btDeformableMultiBodyConstraintSolver.h"
 #include "btSoftBodyHelpers.h"
-#include "BulletCollision/CollisionDispatch/btSimulationIslandManager.h"
+#include "../BulletCollision/CollisionDispatch/btSimulationIslandManager.h"
 #include <functional>
 typedef btAlignedObjectArray<btSoftBody*> btSoftBodyArray;
 

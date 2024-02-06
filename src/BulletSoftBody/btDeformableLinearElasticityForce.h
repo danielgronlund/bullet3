@@ -17,7 +17,7 @@
 #define BT_LINEAR_ELASTICITY_H
 
 #include "btDeformableLagrangianForce.h"
-#include "LinearMath/btQuickprof.h"
+#include "../LinearMath/btQuickprof.h"
 #include "btSoftBodyInternals.h"
 #define TETRA_FLAT_THRESHOLD 0.01
 class btDeformableLinearElasticityForce : public btDeformableLagrangianForce

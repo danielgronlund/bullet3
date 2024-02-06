@@ -14,8 +14,8 @@ subject to the following restrictions:
 */
 
 #include "btHinge2Constraint.h"
-#include "BulletDynamics/Dynamics/btRigidBody.h"
-#include "LinearMath/btTransformUtil.h"
+#include "../BulletDynamics/Dynamics/btRigidBody.h"
+#include "../LinearMath/btTransformUtil.h"
 
 // constructor
 // anchor, axis1 and axis2 are in world coordinate system

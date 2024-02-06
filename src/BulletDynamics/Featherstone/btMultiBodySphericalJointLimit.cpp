@@ -18,10 +18,10 @@ subject to the following restrictions:
 #include "btMultiBodySphericalJointLimit.h"
 #include "btMultiBody.h"
 #include "btMultiBodyLinkCollider.h"
-#include "BulletCollision/CollisionDispatch/btCollisionObject.h"
-#include "LinearMath/btTransformUtil.h"
-#include "BulletDynamics/ConstraintSolver/btGeneric6DofSpring2Constraint.h"
-#include "LinearMath/btIDebugDraw.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionObject.h"
+#include "../LinearMath/btTransformUtil.h"
+#include "../BulletDynamics/ConstraintSolver/btGeneric6DofSpring2Constraint.h"
+#include "../LinearMath/btIDebugDraw.h"
 
 btMultiBodySphericalJointLimit::btMultiBodySphericalJointLimit(btMultiBody* body, int link, 
 	btScalar swingxRange,

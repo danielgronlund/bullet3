@@ -1,6 +1,6 @@
 #include "btSdfCollisionShape.h"
 #include "btMiniSDF.h"
-#include "LinearMath/btAabbUtil2.h"
+#include "../LinearMath/btAabbUtil2.h"
 
 ATTRIBUTE_ALIGNED16(struct)
 btSdfCollisionShapeInternalData

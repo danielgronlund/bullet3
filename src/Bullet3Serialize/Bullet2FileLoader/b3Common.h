@@ -18,8 +18,8 @@ subject to the following restrictions:
 
 #include <assert.h>
 //#include "bLog.h"
-#include "Bullet3Common/b3AlignedObjectArray.h"
-#include "Bullet3Common/b3HashMap.h"
+#include "../Bullet3Common/b3AlignedObjectArray.h"
+#include "../Bullet3Common/b3HashMap.h"
 
 namespace bParse
 {

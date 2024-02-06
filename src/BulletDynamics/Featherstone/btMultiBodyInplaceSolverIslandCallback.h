@@ -14,9 +14,9 @@
 #ifndef BT_MULTIBODY_INPLACE_SOLVER_ISLAND_CALLBACK_H
 #define BT_MULTIBODY_INPLACE_SOLVER_ISLAND_CALLBACK_H
 
-#include "BulletDynamics/Featherstone/btMultiBodyConstraintSolver.h"
-#include "BulletCollision/CollisionDispatch/btSimulationIslandManager.h"
-#include "BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyConstraintSolver.h"
+#include "../BulletCollision/CollisionDispatch/btSimulationIslandManager.h"
+#include "../BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.h"
 #include "btMultiBodyConstraintSolver.h"
 
 SIMD_FORCE_INLINE int btGetConstraintIslandId2(const btTypedConstraint* lhs)

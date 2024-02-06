@@ -14,10 +14,10 @@ subject to the following restrictions:
 //Originally written by Erwin Coumans
 
 #include "b3ConvexUtility.h"
-#include "Bullet3Geometry/b3ConvexHullComputer.h"
-#include "Bullet3Geometry/b3GrahamScan2dConvexHull.h"
-#include "Bullet3Common/b3Quaternion.h"
-#include "Bullet3Common/b3HashMap.h"
+#include "../Bullet3Geometry/b3ConvexHullComputer.h"
+#include "../Bullet3Geometry/b3GrahamScan2dConvexHull.h"
+#include "../Bullet3Common/b3Quaternion.h"
+#include "../Bullet3Common/b3HashMap.h"
 
 b3ConvexUtility::~b3ConvexUtility()
 {

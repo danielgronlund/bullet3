@@ -18,9 +18,9 @@ subject to the following restrictions:
 #include "btMultiBodySphericalJointMotor.h"
 #include "btMultiBody.h"
 #include "btMultiBodyLinkCollider.h"
-#include "BulletCollision/CollisionDispatch/btCollisionObject.h"
-#include "LinearMath/btTransformUtil.h"
-#include "BulletDynamics/ConstraintSolver/btGeneric6DofSpring2Constraint.h"
+#include "../BulletCollision/CollisionDispatch/btCollisionObject.h"
+#include "../LinearMath/btTransformUtil.h"
+#include "../BulletDynamics/ConstraintSolver/btGeneric6DofSpring2Constraint.h"
 
 btMultiBodySphericalJointMotor::btMultiBodySphericalJointMotor(btMultiBody* body, int link, btScalar maxMotorImpulse)
 	: btMultiBodyConstraint(body, body, link, body->getLink(link).m_parent, 3, true, MULTIBODY_CONSTRAINT_SPHERICAL_MOTOR),

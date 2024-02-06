@@ -20,7 +20,7 @@ subject to the following restrictions:
 #define BT_BOX_BOX_DETECTOR_H
 
 class btBoxShape;
-#include "BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h"
+#include "../BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h"
 
 /// btBoxBoxDetector wraps the ODE box-box collision detector
 /// re-distributed under the Zlib license with permission from Russell L. Smith

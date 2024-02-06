@@ -15,7 +15,7 @@ subject to the following restrictions:
 
 #include "btCapsuleShape.h"
 
-#include "LinearMath/btQuaternion.h"
+#include "../LinearMath/btQuaternion.h"
 
 btCapsuleShape::btCapsuleShape(btScalar radius, btScalar height) : btConvexInternalShape()
 {

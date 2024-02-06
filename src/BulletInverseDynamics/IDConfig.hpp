@@ -59,9 +59,9 @@
 #define btInverseDynamics btInverseDynamicsBullet3
 // Use default configuration with bullet's types
 // Use the same scalar type as rest of bullet library
-#include "LinearMath/btScalar.h"
+#include "../LinearMath/btScalar.h"
 typedef btScalar idScalar;
-#include "LinearMath/btMinMax.h"
+#include "../LinearMath/btMinMax.h"
 #define BT_ID_MAX(a, b) btMax(a, b)
 #define BT_ID_MIN(a, b) btMin(a, b)
 
@@ -72,7 +72,7 @@ typedef btScalar idScalar;
 #ifndef BT_USE_INVERSE_DYNAMICS_WITH_BULLET2
 
 // use bullet types for arrays and array indices
-#include "Bullet3Common/b3AlignedObjectArray.h"
+#include "../Bullet3Common/b3AlignedObjectArray.h"
 // this is to make it work with C++2003, otherwise we could do this:
 // template <typename T>
 // using idArray = b3AlignedObjectArray<T>;
@@ -86,7 +86,7 @@ typedef int idArrayIdx;
 
 #else  // BT_USE_INVERSE_DYNAMICS_WITH_BULLET2
 
-#include "LinearMath/btAlignedObjectArray.h"
+#include "../LinearMath/btAlignedObjectArray.h"
 template <typename T>
 struct idArray
 {

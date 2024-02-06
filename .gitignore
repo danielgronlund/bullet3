@@ -40,3 +40,6 @@ CTestTestFile.cmake
 .vscode/
 .idea/
 cmake-build-debug/
+
+# SPM
+.swiftpm/

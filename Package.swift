@@ -19,7 +19,10 @@ let package = Package(
         "btLinearMathAll.cpp",
         "Bullet3OpenCL/"
       ],
-      sources: ["."]
+      sources: ["."],
+      cxxSettings: [
+        .define("BT_THREADSAFE")
+      ]
     ),
   ]
 )
